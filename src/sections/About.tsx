@@ -41,15 +41,6 @@ export function About() {
                   {profile.email}
                 </a>
               </div>
-              <div className="about-fact">
-                <span className="about-fact-label">Phone</span>
-                <a
-                  href={`tel:${profile.phone}`}
-                  className="about-fact-value about-fact-link"
-                >
-                  {profile.phone}
-                </a>
-              </div>
             </div>
           </motion.div>
 

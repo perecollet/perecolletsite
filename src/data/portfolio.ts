@@ -4,7 +4,6 @@ export const profile: Profile = {
   name: 'Pere Collet Montaña',
   title: 'Software Engineer · Backend Developer',
   email: 'pcollet@telefonica.net',
-  phone: '+34 603250197',
   location: 'Argentona, Barcelona',
   summary:
     'Backend-focused Software Engineer with 5+ years of experience building robust Java/Spring Boot applications in the healthcare sector. Passionate about clean code, system reliability, and continuous improvement.',

@@ -2,7 +2,6 @@ export interface Profile {
   name: string;
   title: string;
   email: string;
-  phone: string;
   location: string;
   summary: string;
   languages: { name: string; level: string }[];
