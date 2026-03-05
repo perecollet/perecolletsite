@@ -29,15 +29,15 @@ export const experiences: Experience[] = [
     achievements: [
       {
         description: 'Led updates to support accreditation of new health centers.',
-        stack: ['Java', 'Spring Boot', 'React.js', 'PostgreSQL', 'JPA', 'REST API', 'Git'],
+        stack: ['Java', 'Spring Boot', 'React.js', 'PostgreSQL', 'Spring Data JPA', 'REST API', 'Git'],
       },
       {
         description: 'Built a dedicated COVID-19 sample tracking application, enhancing traceability of samples for investigation purposes.',
-        stack: ['Java', 'Spring Boot', 'React.js', 'PostgreSQL', 'JPA', 'REST API', 'Git'],
+        stack: ['Java', 'Spring Boot', 'React.js', 'PostgreSQL', 'Spring Data JPA', 'REST API', 'Git'],
       },
       {
         description: 'Automated XML ingestion from SFTP servers.',
-        stack: ['Java', 'Spring Boot', 'WebLogic', 'Oracle SQL', 'JPA', 'Git'],
+        stack: ['Java', 'Spring', 'WebLogic', 'Oracle SQL', 'Spring Data JPA', 'Git'],
       },
       {
         description: 'Adapted COVID-19 app to evolving pandemic scenarios.',
@@ -83,6 +83,7 @@ export const projects: Project[] = [
       'Web app for creating events to improve public space usage and neighborhood interaction in Mataró.',
     award: '🏆 1st Place · SomHackathon',
     date: 'Feb 2019',
+    url:'https://github.com/somhackathon19/somhackathon19-kteam',
   },
 ];
 
@@ -90,7 +91,8 @@ export const skills: Skill[] = [
   { name: 'Java', category: 'Backend' },
   { name: 'Spring Boot', category: 'Backend' },
   { name: 'PL/SQL', category: 'Backend' },
-  { name: 'JPA', category: 'Backend' },
+  { name: 'Spring Data JPA', category: 'Backend' },
+  { name: 'Hibernate', category: 'Backend' },
   { name: 'REST API', category: 'Backend' },
   { name: 'WebLogic', category: 'Backend' },
   { name: 'React.js', category: 'Frontend' },

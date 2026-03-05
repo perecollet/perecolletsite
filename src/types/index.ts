@@ -33,6 +33,7 @@ export interface Project {
   description: string;
   award?: string;
   date: string;
+  url:string;
 }
 
 export interface Skill {

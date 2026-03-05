@@ -17,6 +17,8 @@ export function Projects() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1, ease: [0.22, 1, 0.36, 1] }}
               whileHover={{ y: -5 }}
+              onClick={() => window.open(project.url, '_blank', 'noopener,noreferrer')}
+              style={{ cursor: 'pointer' }}
             >
               <div className="project-card-top">
                 <div className="project-icon" aria-hidden="true">
