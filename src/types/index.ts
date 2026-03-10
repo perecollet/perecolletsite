@@ -23,7 +23,6 @@ export interface Experience {
   location: string;
   startDate: string;
   endDate: string;
-  description?: string;
   achievements: Achievement[];
 }
 

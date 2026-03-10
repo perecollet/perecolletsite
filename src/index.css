@@ -404,14 +404,6 @@ button { font-family: inherit; }
   50% { opacity: 0; }
 }
 
-.hero-summary {
-  font-size: 1rem;
-  color: var(--text-muted);
-  line-height: 1.75;
-  max-width: 480px;
-  margin-bottom: 2.25rem;
-}
-
 .hero-ctas {
   display: flex;
   gap: 1rem;
@@ -655,7 +647,6 @@ button { font-family: inherit; }
   flex-direction: column;
   gap: 1.1rem;
 }
-.achievement-item {}
 .achievement-desc {
   font-size: 0.88rem;
   color: var(--text-muted);
@@ -712,8 +703,6 @@ button { font-family: inherit; }
   flex-direction: column;
   gap: 2rem;
 }
-
-.about-chip-group {}
 
 .about-chip-label {
   font-family: 'JetBrains Mono', monospace;
@@ -856,8 +845,6 @@ button { font-family: inherit; }
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 2rem 2.5rem;
 }
-
-.skills-group {}
 
 .skills-group-label {
   font-family: 'JetBrains Mono', monospace;
