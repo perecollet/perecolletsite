@@ -113,10 +113,6 @@ export function Hero() {
             </span>
           </motion.div>
 
-          <motion.p className="hero-summary" variants={itemVariants}>
-            {profile.summary}
-          </motion.p>
-
           <motion.div className="hero-ctas" variants={itemVariants}>
             <a href="#experience" className="btn btn-primary">View My Work</a>
             <a href="#contact" className="btn btn-secondary">Contact Me</a>
