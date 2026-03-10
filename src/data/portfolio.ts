@@ -5,8 +5,10 @@ export const profile: Profile = {
   title: 'Software Engineer · Backend Developer',
   email: 'pcollet@telefonica.net',
   location: 'Argentona, Barcelona',
-  summary:
-    'Backend-focused Software Engineer with 5+ years of experience building robust Java/Spring Boot applications in the healthcare sector. Passionate about clean code, system reliability, and continuous improvement.',
+  summary: `Back-end developer with 5+ years of experience designing and building scalable REST APIs and backend systems, primarily with Java and Spring Boot.
+Throughout my career at NTT DATA, I've worked on projects for public institutions such as the Generalitat de Catalunya's health department and the CTTI (Centre de Telecomunicacions i Tecnologies de la Informació), where I developed and maintained critical backend services used by thousands of users.
+I care about writing clean, maintainable code and applying solid engineering principles. I enjoy tackling complex technical challenges and collaborating with cross-functional teams to deliver real impact.
+Currently open to new opportunities as a Back-end or Software Engineer, preferably working with Java-based stacks in product-oriented or technically challenging environments.`,
   languages: [
     { name: 'English', level: 'Intermediate' },
     { name: 'Spanish', level: 'Native' },
