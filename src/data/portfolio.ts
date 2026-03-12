@@ -3,7 +3,7 @@ import type { Profile, Experience, Project, Skill, Education } from '../types';
 export const profile: Profile = {
   name: 'Pere Collet Montaña',
   title: 'Software Engineer · Backend Developer',
-  email: 'pcollet@telefonica.net',
+  email: 'perecolletmontana@gmail.com',
   location: 'Argentona, Barcelona',
   summary: `Back-end developer with 5+ years of experience designing and building scalable REST APIs and backend systems, primarily with Java and Spring Boot.
 Throughout my career at NTT DATA, I've worked on projects for public institutions such as the Generalitat de Catalunya's health department and the CTTI (Centre de Telecomunicacions i Tecnologies de la Informació), where I developed and maintained critical backend services used by thousands of users.
