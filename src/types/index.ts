@@ -31,7 +31,7 @@ export interface Project {
   name: string;
   description: string;
   award?: string;
-  date: string;
+  date?: string;
   url:string;
 }
 

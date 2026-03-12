@@ -87,6 +87,20 @@ export const projects: Project[] = [
     date: 'Feb 2019',
     url:'https://github.com/somhackathon19/somhackathon19-kteam',
   },
+  {
+    id: 'homelab',
+    name: 'Homelab',
+    description:
+      'Personal homelab running on a mini PC. All services are containerised with Docker Compose, exposed via a Cloudflare Tunnel (no port forwarding needed), and routed by Caddy.',
+    url:'https://github.com/perecollet/homelab',
+  },
+  {
+    id: 'perecolletsite',
+    name: 'perecolletsite',
+    description:
+      'Personal portfolio and CV for Pere Collet Montaña — Backend Engineer specializing in Java · Spring Boot · Barcelona.',
+    url:'https://github.com/perecollet/perecolletsite',
+  },
 ];
 
 export const skills: Skill[] = [
