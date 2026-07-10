@@ -22,6 +22,20 @@ Currently open to new opportunities as a Back-end or Software Engineer, preferab
 
 export const experiences: Experience[] = [
   {
+    id: 'career-break',
+    company: 'Career Break',
+    role: 'Software Engineer',
+    location: 'Barcelona',
+    startDate: 'Apr 2025',
+    endDate: 'Present',
+    achievements: [
+      {
+        description: 'Took a sabbatical to invest in professional growth through independent study and hands-on personal projects. Used this time to deepen expertise in areas of strategic interest, build side projects from the ground up, and maintain a proactive approach to learning outside of a traditional workplace setting.',
+        stack: ['Java', 'Spring Boot', 'PostgreSQL', 'Spring Data JPA', 'REST API', 'Git', 'DDD', 'Microservice', 'Hexagonal architecture'],
+      },
+    ],
+  },
+  {
     id: 'ntt-data',
     company: 'NTT DATA',
     role: 'Software Engineer',
