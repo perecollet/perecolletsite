@@ -101,6 +101,28 @@ export const projects: Project[] = [
       'Personal portfolio and CV for Pere Collet Montaña — Backend Engineer specializing in Java · Spring Boot · Barcelona.',
     url:'https://github.com/perecollet/perecolletsite',
   },
+  {
+    id: 'appesdeveniments',
+    name: 'app-esdeveniments',
+    description:
+      'Full-stack mobile app for managing sporting and leisure events — create, join, and generate PDF ▎ registration forms. Bachelors Final Project.',
+    url:'https://github.com/perecollet/app-esdeveniments',
+  },
+  {
+    id: 'mangojavachallenge',
+    name: 'mango-java-challenge',
+    description:
+      'Spring Boot 4 / Java 21 REST API for product price history, with PostgreSQL exclusion constraints, Caffeine caching and two-layer overlap validation.',
+    url:'https://github.com/perecollet/mango-java-challenge',
+  },
+  {
+    id: 'pokemonapi',
+    name: 'pokemon-api',
+    description:
+      'Pokémon ranking REST API in Spring Boot 3.5 / Java 21 with hexagonal architecture, incremental PokéAPI sync, Caffeine cache, and Resilience4j',
+    url:'https://github.com/perecollet/pokemon-api',
+  },
+
 ];
 
 export const skills: Skill[] = [
