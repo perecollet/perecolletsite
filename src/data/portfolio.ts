@@ -116,6 +116,13 @@ export const projects: Project[] = [
     url:'https://github.com/perecollet/perecolletsite',
   },
   {
+    id: 'impostor-game',
+    name: 'impostor-game (in-progress)',
+    description:
+      'Multiplayer social deduction word game built as a Java/Spring Boot microservices system — hexagonal architecture, DDD, and TDD as core learning goals.',
+    url:'https://github.com/perecollet/impostor-game',
+  },
+  {
     id: 'appesdeveniments',
     name: 'app-esdeveniments',
     description:
