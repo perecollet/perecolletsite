@@ -7,11 +7,14 @@ interface BadgeProps {
 }
 
 const categoryClass: Record<Skill['category'], string> = {
-  Backend: 'badge-backend',
-  Frontend: 'badge-frontend',
-  Database: 'badge-database',
-  DevOps: 'badge-devops',
-  Other: 'badge-other',
+  Languages: 'badge-languages',
+  Frameworks: 'badge-frameworks',
+  Architecture: 'badge-architecture',
+  "Databases & Caching": 'badge-databases',
+  Testing: 'badge-testing',
+  "Resilience & Observability":'badge-resilience',
+  Security:'badge-security',
+  "DevOps & Tools":'badge-devops',
 };
 
 export function Badge({ name, category, size = 'sm' }: BadgeProps) {

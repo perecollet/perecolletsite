@@ -37,7 +37,7 @@ export interface Project {
 
 export interface Skill {
   name: string;
-  category: 'Backend' | 'Frontend' | 'Database' | 'DevOps' | 'Other';
+  category: 'Languages' | 'Frameworks' | 'Architecture' | 'Databases & Caching' | 'Testing' | 'Resilience & Observability' | 'Security' | 'DevOps & Tools';
 }
 
 export interface Education {

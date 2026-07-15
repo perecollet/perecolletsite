@@ -12,21 +12,37 @@
   --border: #30363d;
 
   /* Badge palette */
-  --badge-backend: #00ff88;
-  --badge-backend-bg: rgba(0, 255, 136, 0.08);
-  --badge-backend-border: rgba(0, 255, 136, 0.28);
-  --badge-frontend: #00b4d8;
-  --badge-frontend-bg: rgba(0, 180, 216, 0.08);
-  --badge-frontend-border: rgba(0, 180, 216, 0.28);
-  --badge-database: #f97316;
-  --badge-database-bg: rgba(249, 115, 22, 0.08);
-  --badge-database-border: rgba(249, 115, 22, 0.28);
+  --badge-languages: #00ff88;
+  --badge-languages-bg: rgba(0, 255, 136, 0.08);
+  --badge-languages-border: rgba(0, 255, 136, 0.28);
+
+  --badge-frameworks: #00b4d8;
+  --badge-frameworks-bg: rgba(0, 180, 216, 0.08);
+  --badge-frameworks-border: rgba(0, 180, 216, 0.28);
+
+  --badge-architecture: #3b82f6;
+  --badge-architecture-bg: rgba(59, 130, 246, 0.08);
+  --badge-architecture-border: rgba(59, 130, 246, 0.28);
+
+  --badge-databases: #f97316;
+  --badge-databases-bg: rgba(249, 115, 22, 0.08);
+  --badge-databases-border: rgba(249, 115, 22, 0.28);
+
+  --badge-testing: #facc15;
+  --badge-testing-bg: rgba(250, 204, 21, 0.08);
+  --badge-testing-border: rgba(250, 204, 21, 0.28);
+
+  --badge-resilience: #2dd4bf;
+  --badge-resilience-bg: rgba(45, 212, 191, 0.08);
+  --badge-resilience-border: rgba(45, 212, 191, 0.28);
+
+  --badge-security: #f43f5e;
+  --badge-security-bg: rgba(244, 63, 94, 0.08);
+  --badge-security-border: rgba(244, 63, 94, 0.28);
+
   --badge-devops: #a78bfa;
   --badge-devops-bg: rgba(167, 139, 250, 0.08);
   --badge-devops-border: rgba(167, 139, 250, 0.28);
-  --badge-other: #8b949e;
-  --badge-other-bg: rgba(139, 148, 158, 0.08);
-  --badge-other-border: rgba(139, 148, 158, 0.22);
 }
 
 /* ─────────────────────────────────────────────
@@ -525,17 +541,23 @@ button { font-family: inherit; }
 
 .badge:hover { transform: translateY(-1px); }
 
-.badge-backend  { color: var(--badge-backend);  background: var(--badge-backend-bg);  border-color: var(--badge-backend-border); }
-.badge-frontend { color: var(--badge-frontend); background: var(--badge-frontend-bg); border-color: var(--badge-frontend-border); }
-.badge-database { color: var(--badge-database); background: var(--badge-database-bg); border-color: var(--badge-database-border); }
-.badge-devops   { color: var(--badge-devops);   background: var(--badge-devops-bg);   border-color: var(--badge-devops-border); }
-.badge-other    { color: var(--badge-other);    background: var(--badge-other-bg);    border-color: var(--badge-other-border); }
+.badge-languages    { color: var(--badge-languages);    background: var(--badge-languages-bg);    border-color: var(--badge-languages-border); }
+.badge-frameworks   { color: var(--badge-frameworks);   background: var(--badge-frameworks-bg);   border-color: var(--badge-frameworks-border); }
+.badge-architecture { color: var(--badge-architecture); background: var(--badge-architecture-bg); border-color: var(--badge-architecture-border); }
+.badge-databases    { color: var(--badge-databases);    background: var(--badge-databases-bg);    border-color: var(--badge-databases-border); }
+.badge-testing      { color: var(--badge-testing);      background: var(--badge-testing-bg);      border-color: var(--badge-testing-border); }
+.badge-resilience   { color: var(--badge-resilience);   background: var(--badge-resilience-bg);   border-color: var(--badge-resilience-border); }
+.badge-security     { color: var(--badge-security);     background: var(--badge-security-bg);     border-color: var(--badge-security-border); }
+.badge-devops       { color: var(--badge-devops);       background: var(--badge-devops-bg);       border-color: var(--badge-devops-border); }
 
-.badge-backend:hover  { box-shadow: 0 0 10px rgba(0, 255, 136, 0.3); }
-.badge-frontend:hover { box-shadow: 0 0 10px rgba(0, 180, 216, 0.3); }
-.badge-database:hover { box-shadow: 0 0 10px rgba(249, 115, 22, 0.3); }
-.badge-devops:hover   { box-shadow: 0 0 10px rgba(167, 139, 250, 0.3); }
-.badge-other:hover    { box-shadow: 0 0 10px rgba(139, 148, 158, 0.2); }
+.badge-languages:hover    { box-shadow: 0 0 10px rgba(0, 255, 136, 0.3); }
+.badge-frameworks:hover   { box-shadow: 0 0 10px rgba(0, 180, 216, 0.3); }
+.badge-architecture:hover { box-shadow: 0 0 10px rgba(59, 130, 246, 0.3); }
+.badge-databases:hover    { box-shadow: 0 0 10px rgba(249, 115, 22, 0.3); }
+.badge-testing:hover      { box-shadow: 0 0 10px rgba(250, 204, 21, 0.3); }
+.badge-resilience:hover   { box-shadow: 0 0 10px rgba(45, 212, 191, 0.3); }
+.badge-security:hover     { box-shadow: 0 0 10px rgba(244, 63, 94, 0.3); }
+.badge-devops:hover       { box-shadow: 0 0 10px rgba(167, 139, 250, 0.3); }
 
 .badge-row {
   display: flex;

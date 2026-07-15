@@ -4,14 +4,18 @@ import { Badge } from '../components/Badge';
 import { skills } from '../data/portfolio';
 import type { Skill } from '../types';
 
-const CATEGORIES: Skill['category'][] = ['Backend', 'Frontend', 'Database', 'DevOps', 'Other'];
+const CATEGORIES: Skill['category'][] = ['Languages', 'Frameworks', 'Architecture', 'Databases & Caching', 'Testing','Resilience & Observability' ,'Security', 'DevOps & Tools'];
 
 const CATEGORY_LABELS: Record<Skill['category'], string> = {
-  Backend: '// Backend',
-  Frontend: '// Frontend',
-  Database: '// Database',
-  DevOps: '// DevOps',
-  Other: '// Tools',
+  Languages: '// Languages',
+  Frameworks: '// Frameworks',
+  Architecture: '// Architecture',
+  "Databases & Caching": '// Databases & Caching',
+  Testing: '// Testing',
+  "Resilience & Observability": '// Resilience & Observability',
+  Security: '// Security',
+  "DevOps & Tools": '// DevOps & Tools',
+  
 };
 
 export function Skills() {

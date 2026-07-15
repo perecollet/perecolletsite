@@ -31,7 +31,7 @@ export const experiences: Experience[] = [
     achievements: [
       {
         description: 'Took a sabbatical to invest in professional growth through independent study and hands-on personal projects. Used this time to deepen expertise in areas of strategic interest, build side projects from the ground up, and maintain a proactive approach to learning outside of a traditional workplace setting.',
-        stack: ['Java', 'Spring Boot', 'PostgreSQL', 'Spring Data JPA', 'REST API', 'Git', 'DDD', 'Microservice', 'Hexagonal architecture'],
+        stack: ['Java', 'Spring Boot', 'PostgreSQL', 'Spring Data JPA', 'REST API', 'Git', 'DDD', 'Microservices', 'Hexagonal architecture'],
       },
     ],
   },
@@ -147,23 +147,59 @@ export const projects: Project[] = [
 ];
 
 export const skills: Skill[] = [
-  { name: 'Java', category: 'Backend' },
-  { name: 'Spring Boot', category: 'Backend' },
-  { name: 'PL/SQL', category: 'Backend' },
-  { name: 'Spring Data JPA', category: 'Backend' },
-  { name: 'Hibernate', category: 'Backend' },
-  { name: 'REST API', category: 'Backend' },
-  { name: 'WebLogic', category: 'Backend' },
-  { name: 'React.js', category: 'Frontend' },
-  { name: 'TypeScript', category: 'Frontend' },
-  { name: 'HTML', category: 'Frontend' },
-  { name: 'CSS', category: 'Frontend' },
-  { name: 'PostgreSQL', category: 'Database' },
-  { name: 'Oracle SQL', category: 'Database' },
-  { name: 'Git', category: 'DevOps' },
-  { name: 'Talend Studio', category: 'Other' },
-  { name: 'XML', category: 'Other' },
-  { name: 'SFTP', category: 'Other' },
+  // Languages
+  { name: 'Java', category: 'Languages' },
+  { name: 'PL/SQL', category: 'Languages' },
+  { name: 'SQL', category: 'Languages' },
+
+  // Frameworks
+  { name: 'Spring Boot', category: 'Frameworks' },
+  { name: 'Spring Data JPA', category: 'Frameworks' },
+  { name: 'Hibernate', category: 'Frameworks' },
+  { name: 'Spring Security', category: 'Frameworks' },
+  { name: 'React.js', category: 'Frameworks' },
+
+  // Architecture
+  { name: 'Hexagonal Architecture', category: 'Architecture' },
+  { name: 'Domain-Driven Design (DDD)', category: 'Architecture' },
+  { name: 'Microservices', category: 'Architecture' },
+  { name: 'Layered Architecture', category: 'Architecture' },
+  { name: 'REST API design', category: 'Architecture' },
+  { name: 'CQRS', category: 'Architecture' },
+
+  // Databases & Caching
+  { name: 'PostgreSQL', category: 'Databases & Caching' },
+  { name: 'Oracle SQL', category: 'Databases & Caching' },
+  { name: 'Caffeine', category: 'Databases & Caching' },
+  { name: 'Redis', category: 'Databases & Caching' },
+
+  // Testing
+  { name: 'JUnit', category: 'Testing' },
+  { name: 'Mockito', category: 'Testing' },
+  { name: 'Testcontainers', category: 'Testing' },
+  { name: 'JaCoCo', category: 'Testing' },
+  { name: 'JMeter', category: 'Testing' },
+
+  // Resilience & Observability
+  { name: 'Resilience4j', category: 'Resilience & Observability' },
+  { name: 'Prometheus', category: 'Resilience & Observability' },
+  { name: 'Micrometer', category: 'Resilience & Observability' },
+  { name: 'Grafana', category: 'Resilience & Observability' },
+
+  // Security
+  { name: 'JWT', category: 'Security' },
+  { name: 'OAuth2', category: 'Security' },
+  { name: 'RS256', category: 'Security' },
+
+  // DevOps & Tools
+  { name: 'Docker', category: 'DevOps & Tools' },
+  { name: 'Docker Compose', category: 'DevOps & Tools' },
+  { name: 'Git', category: 'DevOps & Tools' },
+  { name: 'Maven', category: 'DevOps & Tools' },
+  { name: 'Jenkins', category: 'DevOps & Tools' },
+  { name: 'CI/CD', category: 'DevOps & Tools' },
+  { name: 'Caddy', category: 'DevOps & Tools' },
+  { name: 'n8n', category: 'DevOps & Tools' },
 ];
 
 export const education: Education[] = [
