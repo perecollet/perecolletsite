@@ -105,3 +105,7 @@ Dark theme with neon accents, defined as CSS variables in `src/index.css`:
 - `prefers-reduced-motion` respected in typewriter animation
 - Semantic HTML throughout
 - ARIA labels on icon-only buttons
+
+## License
+ 
+MIT — see [`LICENSE`](./LICENSE).
